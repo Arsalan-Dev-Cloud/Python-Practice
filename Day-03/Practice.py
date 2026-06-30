@@ -11,7 +11,7 @@ print("Division:",a/b)
 #----------GST Calculation----------
 price=float(input("Enter Price:"))
 gst=price*0.18
-print("GST:",gst)
+print("GST: ",gst)
 
 
 #---------Student Information----------
