@@ -6,6 +6,7 @@ student = {
 }
 
 print(student) # {'name': 'Arsalan', 'age': 22, 'city': 'Latur'}
+print(len(student)) # 3
 
 
 # Adding New Items:-
