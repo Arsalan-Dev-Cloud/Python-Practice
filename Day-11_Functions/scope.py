@@ -1,7 +1,7 @@
 #-------------Local Scope-------------
 def demo():
-    x = 10
-    print(x) # 10
+    x = 20
+    print(x) # 20
 
 demo()
 
