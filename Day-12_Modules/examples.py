@@ -122,3 +122,5 @@ print()
 
 
 print("========== End of Examples ==========")
+
+# This file is given only for Example purpose nothing else
