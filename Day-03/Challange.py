@@ -1,6 +1,6 @@
 print("------ Student Information ------")
 Name = input("Enter Your Name:")
-Age = int(input("Enter Your Age:")
+Age = int(input("Enter Your Age:"))
 Height = float(input("Enter Your Height:"))
 Weight = float(input("Enter Your Weight:"))
 City = input("Enter Your City:")
