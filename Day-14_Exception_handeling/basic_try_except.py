@@ -15,6 +15,7 @@ except :
 
 #---------------------------------------------------------------
 
+# Catching specific exception
 try:
     num =int(input("Enter number: "))
     print(100 / num)
