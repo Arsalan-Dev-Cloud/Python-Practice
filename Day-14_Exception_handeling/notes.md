@@ -4,6 +4,8 @@
 
 An **exception** is an error that occurs while a Python program is running.
 
+The Error handeling is very useful thing
+
 Exception handling allows us to handle these errors gracefully instead of allowing the entire program to crash.
 
 Example without exception handling:
