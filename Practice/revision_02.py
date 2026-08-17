@@ -38,7 +38,7 @@ Grade               : B
 name = input("Enter Your Name: ")
 marks = int(input("Enter Marks: "))
 
-print("------------Result-----------")
+print("\n------------Result-----------")
 print(f"{'Name':<20}: {name}")
 print(f"{'marks':<20}: {marks}")
 
@@ -58,3 +58,14 @@ elif marks >= 40:
     print(f"{'Grade':<20}:F")
 else:
     print("Failed")
+
+
+# Output:-
+"""
+Enter Your Name: Shaikh Arsalan
+Enter Marks: 90
+------------Result-----------
+Name                : Shaikh Arsalan
+marks               : 90
+Grade               : A
+"""
