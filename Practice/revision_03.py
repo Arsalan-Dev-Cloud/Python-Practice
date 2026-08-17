@@ -9,13 +9,26 @@ average = total / len(values)
 highest = max(values)
 lowest = min(values)
 
-print("-------------Result-------------")
+print("\n-------------Result-------------")
 
-for i in range(5):
-    print(f"{'Number ' + str(i+1):<20}: {values[i]}")
-
-
+print(f"{'Number':<20}: {values}")
 print(f"{'Total':<20}: {total}")
 print(f"{'Average':<20}: {average:.2f}")
 print(f"{'Highest':<20}: {highest}")
 print(f"{'Lowest':<20}: {lowest}")
+
+# Output:-
+"""
+Enter Number 1 : 10
+Enter Number 2 : 20
+Enter Number 3 : 30
+Enter Number 4 : 40
+Enter Number 5 : 50
+
+-------------Result-------------
+Number              : [10, 20, 30, 40, 50]
+Total               : 150
+Average             : 30.00
+Highest             : 50
+Lowest              : 10
+"""
