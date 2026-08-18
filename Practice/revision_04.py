@@ -49,3 +49,28 @@ print(f"{'Even Total':<20}: {even_total}")
 print(f"{'Odd Total':<20}: {odd_total}")
 print(f"{'Even Count':<20}: {even_count}")
 print(f"{'Odd Count':<20}: {odd_count}")
+
+
+
+# Output :-
+"""
+Enter number 1: 1 
+Enter number 2: 2
+Enter number 3: 3
+Enter number 4: 4
+Enter number 5: 5
+Enter number 6: 6
+Enter number 7: 7
+Enter number 8: 8
+Enter number 9: 9
+Enter number 10: 10
+
+---------------Result----------------
+All Numbers         : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Even Numbers        : [2, 4, 6, 8, 10]
+Odd Numbers         : [1, 3, 5, 7, 9]
+Even Total          : 30
+Odd Total           : 25
+Even Count          : 5
+Odd Count           : 5
+"""
