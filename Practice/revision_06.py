@@ -92,3 +92,18 @@ print(f"{'Consonants':<20}: {consonents}")
 print(f"{'Special characters:':<20}: {speical}")
 print(f"{'Spaces':<20}: {spaces}")
 print(f"{'Digits':<20}: {digits}")
+
+# Output:-
+"""
+Enter a Sentence: Sho@ib is Devops Engineer 999
+----------------Report-----------------
+Sentence            : Sho@ib is Devops Engineer 999
+Characters          : 29
+Uppercase           : 3
+Lowercase           : 18
+Vowels              : 9
+Consonants          : 12
+Special characters: : 1
+Spaces              : 4
+Digits              : 3
+"""
