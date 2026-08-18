@@ -20,20 +20,6 @@ for loop
 if / elif / else
 len()
 f-string
-
-Output:-
-Enter a sentence: Hello World 123
-
-------------- Result -------------
-
-Original Sentence     : Hello World 123
-Characters            : 15
-Vowels                : 3
-Consonants            : 7
-Spaces                : 2
-Digits                : 3
-Uppercase             : 2
-Lowercase             : 8
 """
 
 # Program:-
