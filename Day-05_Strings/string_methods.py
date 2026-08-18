@@ -3,7 +3,7 @@ name = "arsalan"
 print(name.upper())
 
 name = "ARSALAN"
-Print(name.lower())
+print(name.lower())
 
 name = "shaikh arsalan"
 print(name.title())
