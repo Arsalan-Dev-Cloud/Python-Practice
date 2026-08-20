@@ -75,7 +75,7 @@ print(f"{'Uppercase':<20}: {uppercase}")
 print(f"{'Lowercase':<20}: {lowercase}")
 print(f"{'Vowels':<20}: {vowels}")
 print(f"{'Consonants':<20}: {consonents}")
-print(f"{'Special characters:':<20}: {speical}")
+print(f"{'Special characters':<20}: {speical}")
 print(f"{'Spaces':<20}: {spaces}")
 print(f"{'Digits':<20}: {digits}")
 
