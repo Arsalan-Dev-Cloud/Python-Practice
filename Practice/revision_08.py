@@ -55,14 +55,14 @@ for i in range(len(numbers)):
         equ_avg_count += 1
 
 print("\n--------------Report--------------")
-print(f"{'All Numbers':<20}: {numbers}")
-print(f"{'Total':<20}: {total}")
-print(f"{'Average':<20}: {average}")
-print(f"{'Highest':<20}: {highest}")
-print(f"{'Lowest':<20}: {lowest}")
-print(f"{'Greater than Average':<20}: {gre_avg_count}")
-print(f"{'Less than Average':<20}: {les_avg_count}")
-print(f"{'Equal to Average':<20}: {equ_avg_count}")
+print(f"{'All Numbers':<22}: {numbers}")
+print(f"{'Total':<22}: {total}")
+print(f"{'Average':<22}: {average}")
+print(f"{'Highest':<22}: {highest}")
+print(f"{'Lowest':<22}: {lowest}")
+print(f"{'Greater than Average':<22}: {gre_avg_count}")
+print(f"{'Less than Average':<22}: {les_avg_count}")
+print(f"{'Equal to Average':<22}: {equ_avg_count}")
 
 
 # Output:-
