@@ -57,7 +57,7 @@ for i in range(len(numbers)):
 print("\n--------------Report--------------")
 print(f"{'All Numbers':<22}: {numbers}")
 print(f"{'Total':<22}: {total}")
-print(f"{'Average':<22}: {average}")
+print(f"{'Average':<22}: {average:.2f}")
 print(f"{'Highest':<22}: {highest}")
 print(f"{'Lowest':<22}: {lowest}")
 print(f"{'Greater than Average':<22}: {gre_avg_count}")
