@@ -35,13 +35,12 @@ f-string
 # Program:-
 
 numbers = []
+even_position = []
+odd_position = []
 
 for i in range(10):
     number = int(input(f"Enter Number {i + 1}: "))
     numbers.append(number)
-
-even_position = []
-odd_position = []
 
 for i in range(len(numbers)):
     if i % 2 == 0:
@@ -50,43 +49,33 @@ for i in range(len(numbers)):
         odd_position.append(numbers[i])
 
 for i in range(len(even_position)):
-    count = 0
+    highest_count = 0
+    lowest_count = 0
     for j in range(len(even_position)):
         if even_position[i] >= even_position[j] and  i != j:
-            count += 1
+            highest_count += 1
+        if even_position[i] <= even_position[j] and i != j:
+            lowest_count += 1
 
-    if count == len(even_position) - 1:
+    if highest_count == len(even_position) - 1:
         even_highest = even_position[i]
+    if lowest_count == len(even_position) - 1:
+        even_lowest = even_position[i]
     
 
-for i in range(len(even_position)):
-    count = 0
-    for j in range(len(even_position)):
-        if even_position[i] <= even_position[j] and i != j:
-            count += 1
-
-    if count == len(even_position) - 1:
-        even_lowest = even_position[i]
-
-
 for i in range(len(odd_position)):
-    count = 0
+    highest_count = 0
+    lowest_count = 0
     for j in range(len(odd_position)):
         if odd_position[i] >= odd_position[j] and i != j:
-            count += 1        
-
-    if count == len(odd_position) -1:
-        odd_highest = odd_position[i]
-
-for i in range(len(odd_position)):
-    count = 0
-    for j in range(len(odd_position)):
+            highest_count += 1    
         if odd_position[i] <= odd_position[j] and i != j:
-            count += 1
+            lowest_count += 1    
 
-    if count == len(odd_position) - 1:
-        odd_lowest = odd_position[i]
-
+    if highest_count == len(odd_position) -1:
+        odd_highest = odd_position[i]
+    if lowest_count == len(odd_position) - 1:
+            odd_lowest = odd_position[i]
 
 print("\n------------------------------- Result -------------------------------")
 print(f"\n{'All Numbers':<20}: {numbers}")
