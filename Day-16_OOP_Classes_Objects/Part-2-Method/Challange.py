@@ -59,22 +59,16 @@ laptop3 = Laptop("HP", "Pavilion 15", 80000, 15, 30000)
 while True:
     num = int(input("Enter 1 to select Apply Discount  &  Enter 2 to select Increase Price : "))
     if num == 1:
-        laptop1.apply_discount()
-        laptop2.apply_discount()
-        laptop3.apply_discount()
+        for laptop in Laptop.all_laptops:
+            laptop.apply_discount()
         break
     elif num == 2:
-        laptop1.increase_price()
-        laptop2.increase_price()
-        laptop3.increase_price()
+        for laptop in Laptop.all_laptops:
+            laptop.increase_price()
         break
     else:
         print("Invalid User Input\n")
 
-laptop1.compose_price()
-laptop2.compose_price()
-laptop3.compose_price()
-
-laptop1.show_details()
-laptop2.show_details()
-laptop3.show_details()
+for laptop in Laptop.all_laptops:
+    laptop.compose_price()
+    laptop.show_details()
