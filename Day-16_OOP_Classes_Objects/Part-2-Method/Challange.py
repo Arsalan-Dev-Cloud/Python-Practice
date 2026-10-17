@@ -48,7 +48,12 @@ class Laptop:
         print(f"{'Discount': <10}: {self.discount}")
         if hasattr(self, 'Final_price'):
             print(f"{'Final Price': <10}: {self.Final_price}\n")
-        print(f"{'Larger Price of Laptop': <10}: {self.larger_price}")
+
+    def show_larger_price(self):
+        if num == 1:
+            print(f"{'Larger Price of Laptop': <10}: {self.larger_price}")
+        else:
+            print(f"\n{'Larger Price of Laptop': <10}: {self.larger_price}")
 
 
 #----------------------------------------------------------------------------------------------------------------------------
@@ -72,3 +77,6 @@ while True:
 for laptop in Laptop.all_laptops:
     laptop.compose_price()
     laptop.show_details()
+
+
+laptop.show_larger_price()
