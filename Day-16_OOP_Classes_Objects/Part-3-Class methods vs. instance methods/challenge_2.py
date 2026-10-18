@@ -17,7 +17,6 @@ class Laptop:
     def laptop_count(cls):
         print("\n========== Laptop Statistics ==========\n")
         print(f"{'Total Laptops': <10}: {len(cls.all_laptops)}\n")
-
     
 
 #----------------------------------------------------------------------------------------------------------------------------
