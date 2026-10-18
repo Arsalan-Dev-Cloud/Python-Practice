@@ -6,9 +6,11 @@ class Laptop:
         final_price = amount - ((amount * discount) / 100)
 
         if discount >= 0 and discount <= 100:
-            print("Valid Lapotp Price\n")
+            print("Valid Discount")
         else:
-            print("Invalid Laptop Price\n")
+            print("Invalid Discount\n")
+
+        print(f"{'Final Price': <15} : ₹{final_price}")
 
         
 
