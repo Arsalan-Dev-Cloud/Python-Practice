@@ -1,3 +1,4 @@
+# This is the program to understand inheritance
 class Laptop:
 
     def __init__(self, brand, price, G_card):
@@ -9,7 +10,7 @@ class Laptop:
     def show_details(self):
         print(f"Brand: {self.brand}")
         print(f"Price: ₹{self.price}")
-        
+
 
 class GamingLaptop(Laptop):
     
