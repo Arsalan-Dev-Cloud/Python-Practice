@@ -1,3 +1,4 @@
+# Program for hybrid inheritance
 class Laptop:
 
     def show_brand(self):
