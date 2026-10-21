@@ -7,6 +7,6 @@ print(age > 30 or salary > 25000)
 print(not(age > 18))
 
 #------------Output------------------
+"""True
 True
-True
-False
+False"""
