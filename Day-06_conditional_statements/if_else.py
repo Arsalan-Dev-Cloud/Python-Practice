@@ -7,4 +7,4 @@ else:
     print("not eligible to vote")
 
 #-----------Output------------
-Not eligible to vote
+"""Not eligible to vote"""
