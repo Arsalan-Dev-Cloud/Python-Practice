@@ -12,4 +12,4 @@ else:
     print("Fail")
 
 #-------------Output---------------
-Grade C
+"""Grade C"""
