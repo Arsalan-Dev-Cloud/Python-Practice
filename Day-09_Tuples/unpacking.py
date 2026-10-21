@@ -12,6 +12,8 @@ print(age)
 print(country)
 
 #-----------Output-----------
+"""
 Arsalan
 22
 India
+"""
