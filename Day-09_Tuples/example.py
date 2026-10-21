@@ -8,10 +8,11 @@ for subject in subjects:
 
 
 #----------output------------
+"""
 Subjects Offered
 Math
 Science
 English
 History
 Geography
-PS E:\PYTHO
+"""
