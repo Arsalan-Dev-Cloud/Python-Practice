@@ -10,8 +10,10 @@ print(text[-5:])
 # Syntax->string[start:end]
 
 #------------output------------------
+"""
 Data
 Engineering
 Data
 Engineering
 ering
+"""
