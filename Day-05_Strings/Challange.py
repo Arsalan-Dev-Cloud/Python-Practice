@@ -16,6 +16,7 @@ print(f"Characters : {len(course)}")
 
 
 #----------------Output------------------
+"""
 Enter Your Name:Shaikh Arsalan
 Enter Your City:Latur
 Enter Your Course:Data Engineering
@@ -24,4 +25,4 @@ I live in : Latur
 I am learning : Data Engineering
 Upper Case : SHAIKH ARSALAN
 Lower Case : shaikh arsalan
-Characters : 16
+Characters : 16"""
