@@ -7,6 +7,7 @@ print(fruits[-1])
 
 
 #------------Output---------------
+"""
 Apple
 Banana
-Cherry
+Cherry"""
