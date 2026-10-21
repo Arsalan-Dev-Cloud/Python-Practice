@@ -10,6 +10,8 @@ print(language[-1])
 
 
 #----------output of above program----------------
+"""
 p
 y
 n
+"""
