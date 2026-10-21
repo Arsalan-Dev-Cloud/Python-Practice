@@ -13,8 +13,10 @@ for key, value in student.items():
 
 
 # Ouput -
+"""
 -------- Student Profile --------
 Name      : Arsalan
 Age       : 22
 Course    : Python
 City      : Latur
+"""
