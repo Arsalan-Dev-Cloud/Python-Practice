@@ -9,4 +9,4 @@ if marks >= 35:
     print("You passed the exam.")
 
 #------------Output----------------
-You passed the exam.
+"""You passed the exam."""
