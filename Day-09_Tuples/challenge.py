@@ -10,9 +10,9 @@ print(f"Salary     : ₹{salary:,}")
 print(f"City       : {city}")
 
 #--------------Output---------------
------------ Employee Information -----------
+"""----------- Employee Information -----------
 ID         : 1
 Name       : Arsalan
 Department : Data Engineer
 Salary     : 60000
-City       : Latur
+City       : Latur"""
