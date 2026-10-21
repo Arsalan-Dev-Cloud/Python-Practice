@@ -10,10 +10,10 @@ print("City : ",city)
 print("Favourte Language : ",language)
 
 
-//-----------------------------------------------------//
-output:-
+#//-----------------------------------------------------//
+"""output:-
 ----- Student Information -----
 Name : Arsalan
 Age : 22
 City : Latur
-Favorite Language : Python
+Favorite Language : Python"""
