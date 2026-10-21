@@ -8,5 +8,7 @@ print(f"I am learning {course}.")
 # F-string means formatting the string
 
 #------------Output----------------
+"""
 My name is Arsalan.
 I am learning Python.
+"""
