@@ -8,9 +8,9 @@ print(a < b)
 print(a > b)
 
 #-----------Output---------------
-False
+"""False
 True
 True
 False
 True
-False
+False"""
