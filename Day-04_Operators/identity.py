@@ -7,5 +7,5 @@ print(a is b)
 print(a is c)
 
 #------------output---------------
-True
-False
+"""True
+False"""
