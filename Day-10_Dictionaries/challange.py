@@ -37,6 +37,7 @@ for marks in grades:
         break
 
 # Output:
+"""
 -----------Student Report Card------------
 Name                : Arsalan
 Roll Number         : 60
@@ -47,3 +48,4 @@ English Marks       : 85
 Total               : 270
 Avearge             : 90.00
 Grade               : A
+"""
