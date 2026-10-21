@@ -13,4 +13,4 @@ else:
 
 
 #--------------Output--------------
-Elibile to vote
+"""Elibile to vote"""
