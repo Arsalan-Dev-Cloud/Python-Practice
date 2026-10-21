@@ -22,6 +22,8 @@ class AdvancedGamingLaptop(GamingLaptop, DisplayFeatures):
     def show_ram(self):
         print("RAM: 16GB DDR5")
 
+    def show_storage(self):
+        print("Storage: 1TB SSD")
 
 laptop = AdvancedGamingLaptop()
 
