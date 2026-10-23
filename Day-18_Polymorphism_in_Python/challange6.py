@@ -8,7 +8,8 @@ class GamingLaptop(Laptop):
         print("Gaming Laptop: High Performance features")
 
 class OfficeLaptop(Laptop):
-    pass
+    def show_details(self):
+        print("Office Laptop: Productivity features")
 
 laptop1 = Laptop()
 laptop2 = GamingLaptop()
