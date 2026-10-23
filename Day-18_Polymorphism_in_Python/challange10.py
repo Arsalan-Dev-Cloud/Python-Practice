@@ -1,4 +1,3 @@
-
 class Laptop:
     all_laptops = []
 
