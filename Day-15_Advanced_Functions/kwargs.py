@@ -22,3 +22,15 @@ student(
     Course="Big Data",
     Marks="90"
 )
+
+
+
+# Output:-
+
+"""
+{'Name': 'Arsalan', 'Course': 'Big Data', 'Marks': '90'} 
+
+Name      : Arsalan
+Course    : Big Data
+Marks     : 90
+"""
