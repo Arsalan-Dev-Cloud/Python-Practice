@@ -43,3 +43,17 @@ print()
 laptop2.show_brand()
 laptop2.show_type()
 laptop2.show_purpose()
+
+
+
+# Ouput:-
+
+"""
+Brand: ASUS
+Type: Gaming Lapotp
+GPU: RTX 5050
+
+Brand: Dell
+Type: Business Laptop
+Purpose: Professional use
+"""
