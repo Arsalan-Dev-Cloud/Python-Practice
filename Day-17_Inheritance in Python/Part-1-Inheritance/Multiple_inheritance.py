@@ -19,3 +19,12 @@ laptop1 = GamingLaptop()
 laptop1.show_brand()
 laptop1.show_gpu()
 laptop1.show_refesh_rate()
+
+
+# Output-
+
+"""
+Brand: Asus
+GPU: RTX 5050
+Refresh Rate: 240Hz
+"""
