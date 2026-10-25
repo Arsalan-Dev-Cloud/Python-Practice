@@ -30,3 +30,12 @@ laptop3 = create_laptop(OfficeLaptop)
 # Display all registered laptops
 for item in all_laptops:
     item.show_details()
+
+
+# Output:-
+
+"""
+General Laptop
+Gaming Laptop
+Office Laptop
+"""
