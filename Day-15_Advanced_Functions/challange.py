@@ -42,3 +42,25 @@ def display_employee(**details):
 for employee in employees:
     display_employee(**employee)
     print()
+
+
+# Output:-
+
+"""
+[{'name': 'Arsalan', 'salary': 60000}, {'name': 'Ali', 'salary': 45000}, {'name': 'Shoaib', 'salary': 75000}, {'name': 'Ahmed', 'salary': 35000}]
+[{'name': 'Arsalan', 'salary': 60000}, {'name': 'Shoaib', 'salary': 75000}]
+[66000.0, 49500.0, 82500.0, 38500.0]
+[60000, 45000, 75000, 35000]
+Total Salary: 215000
+name      : Arsalan
+salary    : 60000
+
+name      : Ali
+salary    : 45000
+
+name      : Shoaib
+salary    : 75000
+
+name      : Ahmed
+salary    : 35000
+"""
