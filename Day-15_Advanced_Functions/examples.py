@@ -176,3 +176,57 @@ print("Updated Marks  :", updated_marks)
 
 
 print("\n----- All Examples Completed -----")
+
+
+
+# Output:- 
+"""
+----- Example 1: Default Arguments -----
+Hello, Guest!
+Hello, Arsalan!
+
+----- Example 2: Keyword Arguments -----
+Name   : Arsalan
+Course : Big Data
+Marks  : 90
+
+----- Example 3: *args -----
+Marks : (90, 85, 95, 80, 88)
+Total : 438
+
+----- Example 4: Loop with *args -----
+Python
+SQL
+React
+FastAPI
+
+----- Example 5: **kwargs -----
+{'Name': 'Arsalan', 'Department': 'Data Engineering', 'Salary': 60000}
+
+----- Example 6: Loop with **kwargs -----
+Name        : Arsalan
+Department  : Data Engineering
+Salary      : 60000
+City        : Pune
+
+----- Example 7: Lambda -----
+Square of 5: 25
+
+----- Example 8: Lambda Addition -----
+10 + 20 = 30
+
+----- Example 9: map() -----
+Original : [1, 2, 3, 4, 5]
+Squares  : [1, 4, 9, 16, 25]
+
+----- Example 10: filter() -----
+Numbers : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Even    : [2, 4, 6, 8, 10]
+
+----- Example 11: Student Marks -----
+Original Marks : [45, 92, 78, 33, 85, 25]
+Passed Marks   : [45, 92, 78, 85]
+Updated Marks  : [50, 97, 83, 38, 90, 30]
+
+----- All Examples Completed -----
+"""
