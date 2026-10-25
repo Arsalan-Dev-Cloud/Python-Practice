@@ -11,3 +11,11 @@ class GamingLaptop(Laptop):
 
 laptop1 = GamingLaptop()
 laptop1.show_details()
+
+
+# Output:-
+
+"""
+Laptop: Basic features
+Gaming Laptop: High Performance features
+"""
