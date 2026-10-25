@@ -1,7 +1,10 @@
 class Laptop:
 
+    all_obj = []
+
     def __init__(self, brand):
         self.brand = brand
+        Laptop.all_obj.append(self)
 
     def show_details(self):
         print("Brand:",self.brand)
@@ -29,7 +32,9 @@ class OfficeLaptop(Laptop):
         print("Ram:",self.ram)
 
 
+laptop1 = Laptop("Asus")
+laptop2 = GamingLaptop("Acer","RTX 5050")
+laptop3 = OfficeLaptop("Dell","16GB")
 
-
-laptop1 = OfficeLaptop("Dell","16GB")
-laptop1.show_details()
+for item in Laptop.all_obj:
+    item.show_details()
