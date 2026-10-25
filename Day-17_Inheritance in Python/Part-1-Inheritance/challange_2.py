@@ -22,3 +22,12 @@ laptop1 = BusinessLaptop("ASUS ROG Strix G16", 200000)
 
 laptop1.show_details()
 laptop1.show_purpose()
+
+
+# Output:-
+
+"""
+Brand: ASUS ROG Strix G16
+Price: ₹200000
+Purpose: Business and productivity
+"""
