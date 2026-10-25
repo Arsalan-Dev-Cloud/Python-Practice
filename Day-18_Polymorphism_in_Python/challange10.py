@@ -26,3 +26,13 @@ laptop3 = OfficeLaptop()
 # Display all registered laptops
 for item in Laptop.all_laptops:
     item.show_details()
+
+
+
+# Output:- 
+
+"""
+General Laptop
+Gaming Laptop
+Office Laptop
+"""
