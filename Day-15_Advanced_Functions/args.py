@@ -19,3 +19,19 @@ def skills(*skills):
 
 skills("Python", "SQL", "React", "FastAPI")
 # Functions + Tuples + Loops.
+
+
+
+# Output:- 
+"""
+30
+60
+140
+450
+
+
+Python
+SQL
+React
+FastAPI
+"""
