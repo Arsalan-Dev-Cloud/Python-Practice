@@ -29,3 +29,13 @@ allobj = [laptop1,laptop2,laptop3, mobile1]
 
 for item in allobj:
     item.show_details()
+
+
+# Output:-
+
+"""
+Laptop: Basic features
+Gaming Laptop: High Performance features
+Office Laptop: Productivity features
+Smartphone: Mobile features
+"""
