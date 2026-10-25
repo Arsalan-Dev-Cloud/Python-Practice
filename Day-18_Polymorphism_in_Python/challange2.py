@@ -11,3 +11,14 @@ laptop1.show_price("Dell", 50000)
 
 laptop2 = Laptop()
 laptop2.show_price("Asus", 200000)
+
+
+# Output:-
+
+"""
+Brand: Dell
+Price: 50000
+
+Brand: Asus
+Price: 200000
+"""
