@@ -5,3 +5,10 @@ def greet(name="Guest"):
 
 greet()
 greet("Arsalan")
+
+
+# Output:- 
+"""
+Hello, Guest!
+Hello, Arsalan!
+"""
