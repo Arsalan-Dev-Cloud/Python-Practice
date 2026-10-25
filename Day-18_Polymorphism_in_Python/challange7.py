@@ -26,3 +26,14 @@ for item, price in zip(all_laptops, prices):
         item.show_price(laptop_price, discount)
     else:
         item.show_price(price)
+
+
+# Output:-
+
+"""
+Laptop price: 50000
+Gaming Laptop price: 150000
+Discount: 10
+Final Price: 135000.0
+Laptop price: 70000
+"""
