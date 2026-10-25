@@ -31,3 +31,13 @@ laptop.show_brand()
 laptop.show_gpu()
 laptop.show_refresh_rate()
 laptop.show_ram()
+
+
+# Output:-
+
+"""
+Brand: ASUS
+GPU: RTX 5050
+Refresh Rate: 240Hz
+RAM: 16GB DDR5
+"""
