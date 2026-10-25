@@ -20,3 +20,11 @@ laptop2 = GamingLapotp("Gaming Laptop")
 
 laptop1.show_type()
 laptop2.show_type()
+
+
+# Output:-
+
+"""
+Type: Normal Laptop
+Type: Gaming Laptop
+"""
