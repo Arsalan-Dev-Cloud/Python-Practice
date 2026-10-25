@@ -40,3 +40,16 @@ laptop4 = GamingLaptop("MSI", "RTX 5070")
 
 for item in Laptop.all_obj:
     item.show_details()
+
+
+# Output:-
+
+"""
+Brand: Asus
+Brand: Acer
+GPU: RTX 5050
+Brand: Dell
+RAM: 16GB
+Brand: MSI
+GPU: RTX 5070
+"""
