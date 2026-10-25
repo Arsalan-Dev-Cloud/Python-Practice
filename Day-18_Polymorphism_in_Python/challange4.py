@@ -18,3 +18,12 @@ laptop3 = officeLaptop()
 laptop1.show_details()
 laptop2.show_details()
 laptop3.show_details()
+
+
+# Output:- 
+
+"""
+Laptop: Basic features
+Gaming Laptop: High Performance features
+Laptop: Basic features
+"""
