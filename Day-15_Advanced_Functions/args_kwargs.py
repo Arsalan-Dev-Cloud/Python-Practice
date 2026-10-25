@@ -10,3 +10,9 @@ information(
     Name="Arsalan",
     Course="Big Data"
 )
+
+# Output:- 
+"""
+Arguments: ('Python', 'SQL')
+Keyword Arguments: {'Name': 'Arsalan', 'Course': 'Big Data'}
+"""
