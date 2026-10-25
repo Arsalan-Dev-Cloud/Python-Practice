@@ -21,3 +21,12 @@ laptop3 = BusinessLaptop()
 laptop1.show_type()
 laptop2.show_type()
 laptop3.show_type()
+
+
+# Output:-
+
+"""
+General-purpose lapotop
+Gaming laptop - RTX 5050
+Business laptop - Professional use
+"""
