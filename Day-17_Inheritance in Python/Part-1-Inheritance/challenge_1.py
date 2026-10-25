@@ -22,3 +22,10 @@ laptop1 = GamingLaptop("Strix G16", 200000, "RTX 5050")
 
 laptop1.show_details()
 laptop1.show_gpu()
+
+# Output:-
+"""
+Brand: Strix G16
+Price: ₹200000
+GPU: RTX 5050
+"""
