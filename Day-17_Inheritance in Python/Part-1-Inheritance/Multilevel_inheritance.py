@@ -19,3 +19,12 @@ laptop = AdvanceGamingLaptop()
 laptop.show_brand()
 laptop.show_gpu()
 laptop.show_ram()
+
+
+# Output:-
+
+"""
+Brand: Asus
+GPU: RTX 5050
+RAM: 16GB DDR5
+"""
