@@ -31,3 +31,30 @@ for laptop in Laptop.all_laptops:
     laptop.show_details()
 
 Laptop.laptop_count()
+
+
+# Output :-
+
+"""
+========== Laptop Details ==========
+
+
+Brand     : Asus Rog
+Model     : Strix G16
+Price     : 200000
+
+
+Brand     : Dell
+Model     : Inspiration 3595
+Price     : 50000
+
+
+Brand     : HP
+Model     : Pavilion 15
+Price     : 80000
+
+
+========== Laptop Statistics ==========
+
+Total Laptops: 3
+"""
