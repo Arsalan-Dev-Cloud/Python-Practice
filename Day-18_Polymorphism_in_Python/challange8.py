@@ -24,3 +24,12 @@ all_laptops = [laptop1, laptop2, laptop3]
 
 for item in all_laptops:
     item.show_details()
+
+
+# Output:-
+
+"""
+General Laptop
+Gaming Laptop
+Office Laptop
+"""
