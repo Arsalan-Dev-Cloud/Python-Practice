@@ -38,3 +38,14 @@ laptop3 = OfficeLaptop("Dell","16GB")
 
 for item in Laptop.all_obj:
     item.show_details()
+
+
+# Output:-
+
+"""
+Brand: Asus
+Brand: Acer
+GPU: RTX 5050
+Brand: Dell
+Ram: 16GB
+"""
