@@ -17,5 +17,19 @@ class GamingLaptop(Laptop):
         super().show_details()
         print("GPU:",self.gpu)
 
-laptop1 = GamingLaptop("Asus","RTX 5050")
+
+class OfficeLaptop(Laptop):
+
+    def __init__(self, brand, ram):
+        super().__init__(brand)
+        self.ram = ram
+
+    def show_details(self):
+        super().show_details()
+        print("Ram:",self.ram)
+
+
+
+
+laptop1 = OfficeLaptop("Dell","16GB")
 laptop1.show_details()
