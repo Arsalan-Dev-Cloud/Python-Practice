@@ -20,3 +20,13 @@ all_laptops = [laptop1, laptop2, laptop3]
 # Write your for loop here
 for item in all_laptops:
     item.show_details()
+
+
+# Output:-
+
+"""
+Laptop: Basic features
+Laptop: Basic features
+Gaming Laptop: High Performance features
+Office Laptop: Productivity features
+"""
