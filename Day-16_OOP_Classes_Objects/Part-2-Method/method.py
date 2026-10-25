@@ -14,3 +14,16 @@ mobile2 = Mobile("Poco", "X8 Pro", 50000)
 
 mobile1.show_details()
 mobile2.show_details()
+
+
+# Output:-
+"""
+Brand     : Poco
+Model     : X7 Pro
+Price     : 25000
+
+
+Brand     : Poco
+Model     : X8 Pro
+Price     : 50000
+"""
