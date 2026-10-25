@@ -12,3 +12,11 @@ class GamingLaptop(Laptop):
 laptop1 = GamingLaptop()
 
 laptop1.show_details()
+
+
+# Output:-
+
+"""
+Brand: ASUS
+GPU: RTX 5050
+"""
