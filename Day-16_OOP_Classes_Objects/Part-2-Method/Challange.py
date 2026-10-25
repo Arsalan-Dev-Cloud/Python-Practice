@@ -80,3 +80,55 @@ for laptop in Laptop.all_laptops:
 
 
 laptop.show_larger_price()
+
+
+
+# Output 1:-
+
+"""
+Enter 1 to select Apply Discount  &  Enter 2 to select Increase Price : 1
+
+Brand     : Asus Rog
+Model     : Strix G16
+Price     : 200000
+Discount  : 20
+Final Price: 160000.0
+
+
+Brand     : Dell
+Model     : Inspiration 3595
+Price     : 50000
+Discount  : 10
+Final Price: 45000.0
+
+
+Brand     : HP
+Model     : Pavilion 15
+Price     : 80000
+Discount  : 15
+Final Price: 68000.0
+
+Larger Price of Laptop: 200000
+"""
+
+# Output 2:- 
+"""
+Enter 1 to select Apply Discount  &  Enter 2 to select Increase Price : 2
+
+Brand     : Asus Rog
+Model     : Strix G16
+Price     : 250000
+Discount  : 20
+
+Brand     : Dell
+Model     : Inspiration 3595
+Price     : 75000
+Discount  : 10
+
+Brand     : HP
+Model     : Pavilion 15
+Price     : 110000
+Discount  : 15
+
+Larger Price of Laptop: 250000
+"""
