@@ -27,3 +27,15 @@ print(laptop1.battery)
 
 laptop1.battery = 110
 print(laptop1.battery)
+
+
+# Output:-
+
+"""
+70
+90
+Invalid battery percentage!
+90
+Invalid battery percentage!
+90
+"""
