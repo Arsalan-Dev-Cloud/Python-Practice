@@ -1,3 +1,4 @@
+
 class Laptop:
 
     def __init__(self, battery):
@@ -5,13 +6,16 @@ class Laptop:
 
     def show_battery(self):
         print("Battery:", self.__battery)
+        print("Current battery:", self.get_battery(), "%")
 
     def set_battery(self, battery):
-
         if battery >= 0 and battery <= 100:
             self.__battery = battery
         else:
             print("Invalid battery percentage!")
+
+    def get_battery(self):
+        return self.__battery
 
 
 laptop1 = Laptop(70)
