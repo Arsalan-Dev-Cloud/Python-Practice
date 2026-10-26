@@ -27,3 +27,16 @@ laptop1.show_battery()
 
 laptop1.set_battery(-20)
 laptop1.show_battery()
+
+
+# Output:-
+
+"""
+Battery: 70
+Current battery: 70 %
+Battery: 90
+Current battery: 90 %
+Invalid battery percentage!
+Battery: 90
+Current battery: 90 %
+"""
