@@ -31,3 +31,16 @@ laptop1.power_mode()
 
 print("\n--- Office Laptop ---")
 laptop2.power_mode()
+
+
+# Output:-
+
+"""
+--- Gaming Laptop ---
+Every laptop has a power mode
+Gaming Laptop: Performance Mode
+
+--- Office Laptop ---
+Every laptop has a power mode
+Office Laptop: Battery Saver Mode
+"""
