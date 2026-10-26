@@ -25,3 +25,10 @@ laptop2 = OfficeLaptop()
 
 laptop1.start()
 laptop2.start()
+
+# Output:-
+
+"""
+Gaming laptop starting...
+Office laptop starting...
+"""
