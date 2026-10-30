@@ -1,3 +1,0 @@
-Brand: ASUS
-RAM: 16GB DDR5
-GPU: RTX 5050
