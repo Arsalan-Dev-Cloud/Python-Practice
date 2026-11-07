@@ -3,3 +3,4 @@ RAM: 16GB DDR5
 GPU: RTX 5050
 Storage: 1TB NVMe SSD
 Storage: 1TB NVMe SSD
+Storage: 1TB NVMe SSD
