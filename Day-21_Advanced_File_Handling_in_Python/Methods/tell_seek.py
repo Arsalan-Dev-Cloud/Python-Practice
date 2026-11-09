@@ -6,3 +6,14 @@ with open("E:/Python-Practice/Day-21_Advanced_File_Handling_in_Python/Files/Lapt
     file.seek(0)
     print("After Seek(0):", file.tell())
     print("Second Read:", file.read(5))
+
+
+# Output:-
+
+"""
+Initial Position:  0
+First Read: Brand
+Current Position: 5
+After Seek(0): 0
+Second Read: Brand
+"""
