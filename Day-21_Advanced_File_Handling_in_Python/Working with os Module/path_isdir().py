@@ -8,3 +8,10 @@ if os.path.isdir(file_path):
     print("Folder exists!")
 else:
     print("Folder does not exists!")
+
+
+# Output:-
+
+"""
+Folder does not exists!
+"""
