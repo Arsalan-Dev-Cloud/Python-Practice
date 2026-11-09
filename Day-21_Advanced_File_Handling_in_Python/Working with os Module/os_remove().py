@@ -13,3 +13,10 @@ else:
 
 # Important: os.remove() permanently removes the specified file. Always check the path before deleting. 
 # Don't run this example against your actual laptop specification files.
+
+
+# Output:-
+
+"""
+File deleted successfully!
+"""
