@@ -15,3 +15,17 @@ for item in items:
 
     if os.path.isdir(item_path):
         print("Folder:", item)
+
+
+# Output:-
+
+"""
+----- Directory Contents -----
+Folder: challanges
+Folder: Files
+Files: laptop_file_manager.py
+Folder: Methods
+Files: notes.md
+Folder: Practice
+Folder: Working with os Module
+"""
