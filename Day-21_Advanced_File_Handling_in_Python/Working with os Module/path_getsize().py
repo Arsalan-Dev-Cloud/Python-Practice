@@ -9,3 +9,10 @@ if os.path.exists(file_path):
     print("File Size:", size, "Bytes")
 else:
     print("Files not found!")
+
+
+# Output:-
+
+"""
+File Size: 44 Bytes
+"""
