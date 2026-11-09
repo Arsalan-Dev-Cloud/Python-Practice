@@ -1,0 +1,5 @@
+Brand: ASUS
+Processor: Intel Core i7-14650HX
+RAM: 16GB DDR5
+GPU: RTX 5050
+Storage: 1TB NVMe SSD
