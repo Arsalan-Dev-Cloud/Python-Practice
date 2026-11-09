@@ -13,3 +13,10 @@ if os.path.exists(destination_path):
     print("Backup File Exists: True")
 else:
     print("Backup File Exists: False")
+
+
+# Output:-
+"""
+File Copied Successfully!!!
+Backup File Exists: True
+"""
