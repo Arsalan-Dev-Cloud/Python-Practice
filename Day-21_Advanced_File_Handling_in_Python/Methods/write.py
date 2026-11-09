@@ -4,3 +4,10 @@ with open("E:/Python-Practice/Day-21_Advanced_File_Handling_in_Python/Files/Lapt
     file.write("GPU: RTX 5050\n")
 
 print("Lapotp details are saved successfully!")
+
+
+# Output:-
+
+"""
+Lapotp details are saved successfully!
+"""
