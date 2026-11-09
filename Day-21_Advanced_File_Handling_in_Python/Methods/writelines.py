@@ -14,3 +14,17 @@ print("Laptop details saved successfully!\n")
 with open("E:/Python-Practice/Day-21_Advanced_File_Handling_in_Python/Files/Laptop_Specifications.txt", "r") as file:
     print("----- Laptop Specifications -----")
     print(file.read())
+
+
+# Output:-
+
+"""
+Laptop details saved successfully!
+
+----- Laptop Specifications -----
+Brand: ASUS
+Processor: Intel Core i7-14650HX
+RAM: 16GB DDR5
+GPU: RTX 5050
+Storage: 1TB NVMe SSD
+"""
