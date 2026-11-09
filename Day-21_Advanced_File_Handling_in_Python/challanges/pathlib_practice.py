@@ -16,3 +16,17 @@ if file_path.exists():
     print("Is Directory:", file_path.is_dir())
 else:
     print("File does not exists!!")
+
+
+
+# Output:-
+
+"""
+File Exists!
+Is File: True
+File Name: Laptop.txt
+File Extension: .txt
+Parent Folder: E:\Python-Practice\Day-21_Advanced_File_Handling_in_Python\Files
+File Size: 97 Bytes
+Is Directory: False
+"""
