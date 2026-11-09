@@ -21,3 +21,15 @@ Method                  Purpose
 .parent	                Returns the parent directory
 .stat().st_size	        Returns file size in bytes
 """
+
+# Output:-
+
+"""
+Exists: True
+Is File: True
+Is Directory: False
+File Name: Laptop.txt
+Extension: .txt
+Parent Folder: E:\Python-Practice\Day-21_Advanced_File_Handling_in_Python\Files
+File Size: 150 Bytes
+"""
