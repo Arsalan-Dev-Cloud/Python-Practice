@@ -10,3 +10,12 @@ shutil.move(source_path, destination_path)
 print("File Moved Successfully!")
 print("Original File Exists:", os.path.exists(source_path))
 print("Moved File Exists:", os.path.exists(destination_path))
+
+
+# Output:-
+
+"""
+File Moved Successfully!
+Original File Exists: False
+Moved File Exists: True
+"""
