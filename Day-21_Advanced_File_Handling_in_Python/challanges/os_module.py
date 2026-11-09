@@ -12,3 +12,14 @@ if os.path.exists(file_path):
         print("Is a File: False")
 else:
     print("File Exists: False")
+
+
+
+# Output:-
+
+"""
+----- File Information -----
+File Exists: True
+Is a File: True
+File Size: 101 Bytes
+"""
