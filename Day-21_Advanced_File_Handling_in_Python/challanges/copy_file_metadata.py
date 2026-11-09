@@ -12,3 +12,10 @@ if os.path.exists(destination_path):
     print("Metadata Backup Exists: True")
 else:
     print("Metadata Backup Exists: False")
+
+
+# Output:- 
+"""
+File Copied Successfully With Metadata!
+Metadata Backup Exists: True
+"""
