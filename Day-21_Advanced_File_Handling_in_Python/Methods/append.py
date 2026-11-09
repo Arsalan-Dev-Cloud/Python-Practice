@@ -2,3 +2,10 @@ with open("E:/Python-Practice/Day-21_Advanced_File_Handling_in_Python/Files/Lapt
     file.write("Storage: 1TB NVMe SSD\n")
 
 print("Storage Details added sucessfully!")
+
+
+# Output:-
+
+"""
+Storage Details added sucessfully!
+"""
